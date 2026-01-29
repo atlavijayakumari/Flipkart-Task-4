@@ -5,7 +5,8 @@ Vijaya kumari Atla
 
 ---
 
-Project Title
+🚌 Project Title
+
 Transportation Analytics System for Fleet Fuel Efficiency, Route Costing, and Delay Insights
 
 
@@ -13,137 +14,89 @@ Transportation Analytics System for Fleet Fuel Efficiency, Route Costing, and De
 
 🎯 Objective:
 
-To develop a complete data pipeline that integrates and analyzes sales data from multiple formats (CSV, Excel, JSON), cleans it, performs trend analysis, and produces visualizations and reports for key business insights.
-
-
----
-
-🧰 Tools & Libraries Used:
-
-Python: Data handling and scripting
-
-pandas: Data cleaning, merging, aggregation
-
-numpy: Numerical operations
-
-matplotlib & seaborn: Data visualizations
-
-VS Code: Code development environment
-
-GitHub: Version control and submission
-
+To analyze transportation and traffic data by integrating multiple datasets, performing exploratory data analysis, and building interactive dashboards to evaluate vehicle efficiency, driver performance, route effectiveness, fuel consumption, and maintenance costs for data-driven operational optimization.
 
 ---
 
-📂 Data Sources Used:
-
-sample_sales_data.csv: Provided by Flipkart
-
----
-
-
-🧹 Data Cleaning Summary:
-
-Converted Date column to proper datetime format.
-
-Filled or removed missing values.
-
-Standardized column names and product strings.
-
-Added new columns for Month and Revenue analysis.
-
+🧰 Tools & Technologies Used
+Python – Used for data cleaning, data merging, analysis, and report generation.
+pandas – Used to process, clean, and merge structured datasets efficiently.
+NumPy – Used for numerical calculations and data simulation.
+matplotlib – Used to create basic visualizations during exploratory data analysis.
+seaborn – Used for statistical and comparative visual analysis.
+Google Colab – Used to write, run, and share Python notebooks.
+Power BI Desktop – Used to build interactive dashboards and performance visualizations.
+Microsoft Excel (openpyxl) – Used to export cleaned datasets in Excel format.
+GitHub – Used to store project files, code, and final submissions.
 
 
 ---
 
 
-🔗 Data Integration:
+📂 Data Sources Used
 
-Merged and combined files from different formats (if applicable).
-
-Unified schema across all data files.
-
-Created a master dataframe for analysis.
-
-
-
----
-
-📊 Exploratory Data Analysis (EDA):
-
-Total Revenue Generated: ₹255 (based on example)
-
-Monthly Revenue Trends
-
-Top Performing Products
-
-Sales Volume vs. Revenue
-
-
-Sample Code Used:
-
-df.groupby('Product')['Revenue'].sum()
-df.groupby(df['Date'].dt.to_period('M'))['Revenue'].sum()
+vehicles.csv – Contains vehicle details such as vehicle type and mileage.
+drivers.csv – Contains driver information including experience level.
+trips.csv – Contains trip-level data such as distance, route type, traffic level, delays, and fuel consumption.
+maintenance.csv – Contains vehicle maintenance cost details.
+📌 These datasets were used as raw inputs and later merged to create a unified master analytics table.
+🏷️Note: All datasets are synthetically generated for academic and analytical purposes.
 
 
 ---
 
 
-📈 Visualizations Created:
+🧹 Data Preparation & Processing
 
-📊 Bar Chart: Revenue by Product
-
-📉 Line Plot: Monthly Revenue Trend
-
-All visualizations saved in the outputs/ folder
+The raw datasets were kept unchanged to maintain data integrity.
+Data cleaning was performed on copied datasets to handle missing values and inconsistencies.
+Relevant tables were merged to create a unified master analytics table named "Transaction_Master_Analytics_Table.csv".
+New analytical fields were created to support route cost and efficiency analysis.
 
 
 ---
 
+📊 Exploratory Data Analysis (EDA)
 
-🧾 Reports Generated:
+Exploratory Data Analysis was conducted to understand traffic patterns, vehicle usage, and operational efficiency before building dashboards.
 
-Report File Description
+---
 
-product_revenue.csv Revenue by product
-monthly_revenue.csv Monthly revenue
+🔑 Key Analysis: Route Cost & Fuel Efficiency
 
+This analysis focused on optimizing operational efficiency by evaluating fuel consumption, route performance, and costs per trip.
+
+---
+
+
+📈 Dashboards & Visualizations
+
+1.Interactive dashboards were created in Power BI Desktop to visualize the insights from the master analytics table. These dashboards help decision-makers quickly understand vehicle, driver, and route performance.
+2.Interactive Power BI .pbix file is included for reviewers to explore the dashboards.
 
 ---
 
 💻 How to Run This Project:
 
-1. Install required libraries:
+1️⃣ Python & Notebook Execution
+Upload .ipynb files in the Source_Code/ folder to Google Colab or VS Code Jupyter Notebook.
+Run the notebooks sequentially from top to bottom to generate cleaned datasets, master analytics table, and charts.
 
-pip install pandas matplotlib seaborn
+2️⃣ Required Python Libraries
+pip install pandas numpy matplotlib seaborn openpyxl
 
-
-2. Run the script in terminal or Jupyter:
-
-python sales_analysis.py
-
-
-3. Outputs will be saved inside the outputs/ folder
-
-
----
-
-
-📌 Key Business Insights:
-
-Widget A generated the highest revenue in January 2025.
-
-Revenue growth trend can be analyzed monthly.
-
-Useful for inventory or marketing decisions.
-
+3️⃣ Power BI Dashboard
+Open PowerBI_Dashboard.pbix using Power BI Desktop (no sign-in required).
+Explore interactive dashboards or export as PDF using:
+File → Export → Export to PDF
 
 
 ---
+
 
 👩‍💻 Author & Internship Info:
 Atla Vijaya Kumari
-Flipkart Data Science Intern – 2025
+Flipkart Data Science Intern
 
 
 
