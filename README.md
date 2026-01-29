@@ -21,13 +21,21 @@ To analyze transportation and traffic data by integrating multiple datasets, per
 🧰 Tools & Technologies Used
 
 Python – Used for data cleaning, data merging, analysis, and report generation.
+
 pandas – Used to process, clean, and merge structured datasets efficiently.
+
 NumPy – Used for numerical calculations and data simulation.
+
 matplotlib – Used to create basic visualizations during exploratory data analysis.
+
 seaborn – Used for statistical and comparative visual analysis.
+
 Google Colab – Used to write, run, and share Python notebooks.
+
 Power BI Desktop – Used to build interactive dashboards and performance visualizations.
+
 Microsoft Excel (openpyxl) – Used to export cleaned datasets in Excel format.
+
 GitHub – Used to store project files, code, and final submissions.
 
 
@@ -37,10 +45,15 @@ GitHub – Used to store project files, code, and final submissions.
 📂 Data Sources Used
 
 vehicles.csv – Contains vehicle details such as vehicle type and mileage.
+
 drivers.csv – Contains driver information including experience level.
+
 trips.csv – Contains trip-level data such as distance, route type, traffic level, delays, and fuel consumption.
+
 maintenance.csv – Contains vehicle maintenance cost details.
+
 📌 These datasets were used as raw inputs and later merged to create a unified master analytics table.
+
 🏷️Note: All datasets are synthetically generated for academic and analytical purposes.
 
 
@@ -73,6 +86,7 @@ This analysis focused on optimizing operational efficiency by evaluating fuel co
 📈 Dashboards & Visualizations
 
 1.Interactive dashboards were created in Power BI Desktop to visualize the insights from the master analytics table. These dashboards help decision-makers quickly understand vehicle, driver, and route performance.
+
 2.Interactive Power BI .pbix file is included for reviewers to explore the dashboards.
 
 ---
