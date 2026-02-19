@@ -94,7 +94,7 @@ This analysis focused on optimizing operational efficiency by evaluating fuel co
 💻 How to Run This Project:
 
 1️⃣ Python & Notebook Execution
-Upload .ipynb files in the Source_Code/ folder to Google Colab or VS Code Jupyter Notebook.
+Upload .ipynb files into Google Colab.
 Run the notebooks sequentially from top to bottom to generate cleaned datasets, master analytics table, and charts.
 
 2️⃣ Required Python Libraries
